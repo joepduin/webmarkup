@@ -71,6 +71,11 @@ nav a {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.info-box:hover {
+    border: 1px solid #000000;
 }
 
 .info-box-cafe {
