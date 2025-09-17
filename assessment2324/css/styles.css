@@ -16,8 +16,10 @@ header {
     color: white;
     background-color: #303B4D
 }
-header h2 {
+header a {
     margin-left: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 nav a {
@@ -67,6 +69,8 @@ nav a {
     background-color: white;
     margin-bottom: 50px;
     display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .info-box-cafe {
