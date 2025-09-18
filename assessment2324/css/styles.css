@@ -8,6 +8,9 @@ body {
   background-color: #f8f9fa;
 }
 
+button {
+    cursor: pointer;
+}
 header {
   position: sticky;
   top: 0px;
@@ -102,12 +105,7 @@ nav a {
   border: 1px solid #d1d1d1;
   border-radius: 3px;
   background-color: #f8f9fa;
-}
-
-.info-box-cafe-button {
-  border: 1px solid #d1d1d1;
-  border-radius: 3px;
-  background-color: #d1d1d1;
+  cursor: default;
 }
 
 footer {
