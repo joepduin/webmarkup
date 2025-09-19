@@ -161,3 +161,26 @@ footer {
   font-size: 20px;
   border-radius: 5px;
 }
+
+.why2-gray {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px 50px;
+}
+
+.why2-gray img {
+  margin-right: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+.bullet {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-position: disc outside;
+  margin: 0px;
+  padding-left: 20px;
+}
