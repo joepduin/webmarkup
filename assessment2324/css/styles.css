@@ -2,9 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+#info {
+  scroll-margin-top: 125px;
+}
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Inter";
   background-color: #f8f9fa;
 }
 
@@ -60,7 +63,7 @@ nav a {
 .intro-button {
   padding: 20px 40px;
   font-size: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .info {
@@ -103,7 +106,7 @@ nav a {
 .info-box-cafe-labels {
   margin-right: 5px;
   border: 1px solid #d1d1d1;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #f8f9fa;
   cursor: default;
 }
@@ -126,7 +129,7 @@ footer {
   margin-left: 100px;
   width: 300px;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .why2 {
@@ -140,7 +143,7 @@ footer {
   margin-right: 100px;
   width: 300px;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .knoppen {
@@ -156,5 +159,5 @@ footer {
   width: 200px;
   height: 60px;
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
