@@ -189,6 +189,7 @@ ul {
   padding-left: 20px;
 }
 
+/* Mobiel css */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
