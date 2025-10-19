@@ -1,9 +1,3 @@
-:root {
-  --charcoal: #303b4d;
-  --seasalt: #F8F9FA;
-  --timberwolf: #D1D1D1;
-}
-
 html {
   scroll-behavior: smooth;
 }
