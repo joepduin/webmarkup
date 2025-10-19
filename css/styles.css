@@ -124,7 +124,7 @@ footer {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 50px 200px 50px;
+  padding: 50px 100px 50px;
 }
 
 .why img {
@@ -138,7 +138,7 @@ footer {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 50px 200px 50px;
+  padding: 50px 100px 50px;
 }
 
 .why2 img {
@@ -152,7 +152,8 @@ footer {
   background-color: #f8f9fa;
   display: flex;
   justify-content: space-between;
-  padding: 50px 300px 50px;
+  justify-content: center;
+  padding: 50px 150px 50px;
 }
 
 .knoppen a button {
@@ -162,13 +163,14 @@ footer {
   height: 60px;
   font-size: 20px;
   border-radius: 5px;
+  margin: 0px 30px;
 }
 
 .why2-gray {
   background-color: #f8f9fa;
   display: flex;
   justify-content: space-between;
-  padding: 50px 200px 50px;
+  padding: 50px 100px 50px;
 }
 
 .why2-gray img {
@@ -187,77 +189,22 @@ ul {
   padding-left: 20px;
 }
 
-@media (max-width: 1200px) {
-  .info {
-    margin: 100px 100px 50px;
-  }
-
-  .why,
-  .why2,
-  .why2-gray {
-    padding: 50px 100px 50px;
-  }
-
-  .why img {
-    margin-left: 50px;
-    width: 250px;
-    height: 250px;
-  }
-
-  .why2 img,
-  .why2-gray img {
-    margin-right: 50px;
-    width: 250px;
-    height: 250px;
-  }
-
-  .knoppen {
-    justify-content: center;
-    padding: 50px 150px 50px;
-  }
-
-  .knoppen a button {
-    margin: 0px 15px;
-  }
-}
-
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
-  }
-
-  header a {
-    margin-left: 0px;
   }
 
   nav {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  nav a {
-    margin-left: 0px;
-    padding-right: 0px;
-    margin-top: 10px;
-  }
-
-  .intro {
-    padding-bottom: 60px;
   }
 
   .intro-title {
-    padding-top: 80px;
     font-size: 40px;
   }
 
   .intro-undertitle {
     font-size: 18px;
-    margin: 20px auto;
-    line-height: 28px;
   }
 
   .info {
@@ -266,12 +213,6 @@ ul {
 
   .info-box {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .info-box-cafe {
-    margin: 20px;
   }
 
   .info-box-cafe-img {
@@ -279,7 +220,6 @@ ul {
     margin-bottom: 20px;
     width: 200px;
     height: 200px;
-    align-self: center;
   }
 
   .why,
@@ -287,7 +227,6 @@ ul {
   .why2-gray {
     flex-direction: column;
     padding: 50px 40px 50px;
-    text-align: center;
   }
 
   .why img,
@@ -295,11 +234,8 @@ ul {
   .why2-gray img {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 30px;
-    width: 100%;
     max-width: 300px;
     height: 300px;
-    align-self: center;
   }
 
   .knoppen {
@@ -311,48 +247,5 @@ ul {
   .knoppen a button {
     margin: 0px;
     margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  header {
-    padding: 10px;
-  }
-
-  .intro-title {
-    padding-top: 60px;
-    font-size: 32px;
-  }
-
-  .intro-undertitle {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .intro-button {
-    width: 100%;
-    max-width: 250px;
-  }
-
-  .info {
-    margin: 60px 20px 30px;
-  }
-
-  .info-box {
-    padding: 20px;
-  }
-
-  .info-box-cafe-img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .knoppen {
-    padding: 50px 20px 50px;
-  }
-
-  .knoppen a button {
-    height: 55px;
-    font-size: 18px;
   }
 }
