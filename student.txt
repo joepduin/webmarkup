@@ -1,5 +1,5 @@
 Student name: Joep Duin
 Student number: 743125
 Student class: INF1A
-GitHub Repository: https://github.com/joepduin/webmarkup
-GitHub Pages URL: https://joepduin.github.io/webmarkup/
+GitHub Repository: https://github.com/joepduin/assessment2324
+GitHub Pages URL: https://joepduin.github.io/assessment2324/
