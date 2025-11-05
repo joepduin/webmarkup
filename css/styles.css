@@ -135,6 +135,7 @@ footer > nav {
   background-color: #f5853f;
   color: #ffffff;
   border: none;
+  text-decoration: none;
 }
 
 .info {
@@ -228,7 +229,8 @@ footer {
   padding: 50px 150px 50px;
 }
 
-.knoppen a button {
+.knop-link {
+  display: inline-block;
   border: 1px solid #000000;
   background-color: #ffffff;
   width: 200px;
@@ -236,6 +238,11 @@ footer {
   font-size: 20px;
   border-radius: 5px;
   margin: 0px 30px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Inter";
 }
 
 .why2-gray {
@@ -253,6 +260,13 @@ footer {
 }
 .bullet {
   margin-bottom: 0;
+}
+
+.bullet-list {
+  margin: 10px 0 25px;
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: outside;
 }
 
 ul {
@@ -448,7 +462,7 @@ legend {
     padding: 50px 40px 50px;
   }
 
-  .knoppen a button {
+  .knop-link {
     margin: 0px;
     margin-bottom: 20px;
   }
