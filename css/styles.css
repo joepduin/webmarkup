@@ -9,9 +9,18 @@ html {
 }
 body {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Roboto";
   background-color: #f8f9fa;
   text-indent: initial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter";
 }
 
 button {
@@ -42,6 +51,12 @@ nav a {
   color: white;
 }
 
+.contact-nav {
+  background-color: #f5853f;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
 .intro {
   text-align: center;
   background-color: #303b4d;
@@ -68,8 +83,11 @@ nav a {
 
 .intro-button {
   padding: 20px 40px;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 5px;
+  background-color: #f5853f;
+  color: #ffffff;
+  border: none;
 }
 
 .info {
@@ -197,6 +215,42 @@ legend {
   text-transform: uppercase;
 }
 
+.contact-content {
+  display: flex;
+  gap: 20px;
+  padding: 60px 100px;
+}
+
+.contact-content aside,
+.contact-content form {
+  flex: 1;
+}
+
+.contact-content img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.contact-content fieldset {
+  border: 1px solid #d1d1d1;
+  padding: 20px;
+}
+
+.contact-content input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.submit {
+  background-color: #f5853f;
+  color: #ffffff;
+}
+
 /* Mobiel css */
 @media (max-width: 768px) {
   header {
@@ -256,5 +310,9 @@ legend {
   .knoppen a button {
     margin: 0px;
     margin-bottom: 20px;
+  }
+
+  .contact-content {
+    flex-direction: column;
   }
 }
