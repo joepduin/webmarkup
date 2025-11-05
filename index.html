@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Joep Duin" />
+    <meta name="description" content="Ontdek rustige werkplekken in cafés in Haarlem met stabiele wifi, stopcontacten en een focusvriendelijke omgeving. Werk efficiënt zonder afleidingen." />
+    <meta name="keywords" content="Haarlem, cafés, werkplekken, wifi, rustige omgeving" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -18,8 +17,10 @@
   <body>
     <header>
       <a class="logo" href="index.html"
-        ><img src="img/fav.png" alt="Rustige Werkplekken Haarlem" />
+        ><img src="img/fav.png" alt="Rustige Werkplekken Haarlem" title="Rustige Werkplekken Haarlem" />
       </a>
+  <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-toggle">☰</label>
       <nav>
         <a href="index.html"><u>Home</u></a>
         <a href="rustplek.html">Rustplek</a>
@@ -231,6 +232,60 @@
         />
       </section>
     </section>
+
+    <table class="cafe-table">
+      <thead>
+        <tr>
+          <th>Café Samenvatting</th>
+          <th>Wifi</th>
+          <th>Rustig</th>
+          <th>Stroom</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Café de Zwarte Kat</td>
+          <td>Ja</td>
+          <td>Ja</td>
+          <td>Ja</td>
+        </tr>
+        <tr>
+          <td>Brasserie De Oude Molen</td>
+          <td>Ja</td>
+          <td>Nee</td>
+          <td>Ja</td>
+        </tr>
+        <tr>
+          <td>Koffiehuis Morgenster</td>
+          <td>Ja</td>
+          <td>Ja</td>
+          <td>Ja</td>
+        </tr>
+        <tr>
+          <td>Café de Hoek</td>
+          <td>Ja</td>
+          <td>Ja</td>
+          <td>Ja</td>
+        </tr>
+        <tr>
+          <td>Espresso Bar Central</td>
+          <td>Ja</td>
+          <td>Nee</td>
+          <td>Ja</td>
+        </tr>
+        <tr>
+          <td>Café Lumière</td>
+          <td>Ja</td>
+          <td>Ja</td>
+          <td>Ja</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <aside class="cookies" id="cookies">
+      Deze website gebruikt cookies om je ervaring te verbeteren.
+      <a href="#cookies" class="accept-cookies">Accepteren</a>
+    </aside>
 
     <footer>
       <nav>
