@@ -44,13 +44,28 @@ header a {
   color: white;
 }
 
+.logo {
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
 nav a {
   margin-left: 15px;
   padding-right: 10px;
   text-decoration: none;
   color: white;
 }
-
+footer > nav {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
 .contact-nav {
   background-color: #f5853f;
   padding: 8px 14px;
